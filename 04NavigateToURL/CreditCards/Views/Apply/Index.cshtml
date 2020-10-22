@@ -1,0 +1,74 @@
+﻿@model CreditCards.ViewModels.NewCreditCardApplicationDetails
+
+@{
+    ViewData["Title"] = "Credit Card Application";
+}
+
+<h2>New Credit Card Application</h2>
+<div class="row">
+    <div class="col-md-8">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                Application Details
+            </div>
+            <div class="panel-body">
+                @Html.ValidationSummary()
+                <form method="post" asp-controller="Apply" asp-action="Index">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <fieldset class="form-group">
+                                <label asp-for="FirstName"></label>
+                                <input asp-for="FirstName" class="form-control" />
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label asp-for="LastName"></label>
+                                <input asp-for="LastName" class="form-control" />
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label asp-for="FrequentFlyerNumber"></label>
+                                <input asp-for="FrequentFlyerNumber" class="form-control" />
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label asp-for="Age"></label>
+                                <input asp-for="Age" class="form-control" />
+                            </fieldset>
+                        </div>
+                        <div class="col-md-6">
+                            <fieldset class="form-group">
+                                <label asp-for="GrossAnnualIncome"></label>
+                                <input asp-for="GrossAnnualIncome" class="form-control" />
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label asp-for="RelationshipStatus"></label>
+                                <div class="radio">
+                                    <label class="radio-inline"><input id="Married" asp-for="RelationshipStatus" value="Married" type="radio" />Married</label>
+                                </div>
+                                <div class="radio">
+                                    <label class="radio-inline"><input id="Defacto" asp-for="RelationshipStatus" value="De-facto" type="radio" />De facto</label>
+                                </div>
+                                <div class="radio">
+                                    <label class="radio-inline"><input id="Single" asp-for="RelationshipStatus" value="Single" type="radio" />Single</label>
+                                </div>
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label asp-for="BusinessSource"></label>
+                                <select asp-for="BusinessSource" class="form-control">
+                                    <option value="Declined To Comment">I'd Rather Not Say</option>
+                                    <option value="Internet">Internet Search</option>
+                                    <option value="Email">Marketing Email</option>
+                                    <option value="Word of Mouth">Word of Mouth</option>
+                                    <option value="TV">TV Ad</option>
+                                </select>
+                            </fieldset>
+                            <fieldset class="form-check">
+                                <input asp-for="TermsAccepted" class="form-check-input" />
+                                <label asp-for="TermsAccepted" class="form-check-label"></label>
+                            </fieldset>
+                            <input id="SubmitApplication" type="submit" value="Submit Application" class="btn btn-primary" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards2.UITests\bin\Debug\xunit.abstractions.dll
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards2.UITests\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards2.UITests\bin\Debug\xunit.runner.reporters.net452.dll
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards2.UITests\bin\Debug\xunit.runner.utility.net452.dll
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards2.UITests\bin\Debug\CreditCards2.UITests.dll
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards2.UITests\bin\Debug\CreditCards2.UITests.pdb
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards2.UITests\bin\Debug\WebDriver.dll
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards2.UITests\bin\Debug\xunit.core.dll
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards2.UITests\bin\Debug\WebDriver.xml
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards2.UITests\bin\Debug\xunit.core.xml
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards2.UITests\obj\Debug\CreditCards2.UITests.csproj.CoreCompileInputs.cache
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards2.UITests\obj\Debug\CreditCards2.UITests.csproj.CopyComplete
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards2.UITests\obj\Debug\CreditCards2.UITests.dll
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards2.UITests\obj\Debug\CreditCards2.UITests.pdb
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards2.UITests\bin\Debug\WebDriver.Support.dll
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards2.UITests\bin\Debug\WebDriver.Support.xml
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards2.UITests\obj\Debug\CreditCards2.UITests.csprojAssemblyReference.cache

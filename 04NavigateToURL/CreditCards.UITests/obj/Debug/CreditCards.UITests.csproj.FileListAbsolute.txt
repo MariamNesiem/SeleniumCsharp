@@ -17,3 +17,5 @@ C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04Navigat
 C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards.UITests\obj\Debug\CreditCards.UITests.csproj.CopyComplete
 C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards.UITests\obj\Debug\CreditCards.UITests.dll
 C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards.UITests\obj\Debug\CreditCards.UITests.pdb
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards.UITests\bin\Debug\WebDriver.Support.dll
+C:\Users\mariam.nesiem\Documents\Studies\SeleniumCsharp\SeleniumCsharp\04NavigateToURL\CreditCards.UITests\bin\Debug\WebDriver.Support.xml

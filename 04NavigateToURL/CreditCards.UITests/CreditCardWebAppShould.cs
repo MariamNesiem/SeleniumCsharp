@@ -15,6 +15,19 @@ namespace CreditCards.UITests
         {
             driver = new ChromeDriver();
             driver.Navigate().GoToUrl("http://localhost:44108/");
+            //driver.Manage().Window.Maximize();
+            //Thread.Sleep(1000);
+            //driver.Manage().Window.Minimize();
+            //Thread.Sleep(1000);
+            //driver.Manage().Window.Size = new System.Drawing.Size(300, 400);
+            //Thread.Sleep(1000);
+            //driver.Manage().Window.Position = new System.Drawing.Point(1, 1);
+            //Thread.Sleep(1000);
+            //driver.Manage().Window.Position = new System.Drawing.Point(50, 50);
+            //Thread.Sleep(1000);
+            //driver.Manage().Window.Position = new System.Drawing.Point(100, 100);
+            //Thread.Sleep(1000);
+            //driver.Manage().Window.FullScreen();
             Thread.Sleep(3000);
         }
 
@@ -240,5 +253,55 @@ namespace CreditCards.UITests
                 Assert.Equal("Email", driver.FindElement(By.Id("BusinessSource")).Text);
         }
 
-    }
+        [Fact]
+        public void OpenContactFooterLinkInNewTab()
+        {
+               driver.FindElement(By.Id("ContactFooter")).Click();
+
+            Thread.Sleep(5000);
+
+                ReadOnlyCollection<string> allTabs = driver.WindowHandles;
+                string homePageTab = allTabs[0];
+                string contactTab = allTabs[1];
+
+                driver.SwitchTo().Window(contactTab);
+
+            Thread.Sleep(5000);
+
+            Assert.EndsWith("/Home/Contact", driver.Url);
+          
+        }
+
+        [Fact]
+        public void AlertIfLiveChatClosed()
+        {
+             driver.FindElement(By.Id("LiveChat")).Click();
+
+                WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(5));
+
+                IAlert alert = wait.Until(ExpectedConditions.AlertIsPresent());
+
+                Assert.Equal("Live chat is currently closed.", alert.Text);
+
+            Thread.Sleep(5000);
+
+            alert.Accept();
+
+            Thread.Sleep(5000);
+        }
+
+        [Fact]
+        public void RenderAboutPage()
+        {
+            
+                driver.Navigate().GoToUrl("http://localhost:44108/Home/About");
+
+                ITakesScreenshot screenShotDriver = (ITakesScreenshot)driver;
+
+                Screenshot screenshot = screenShotDriver.GetScreenshot();
+
+                screenshot.SaveAsFile("aboutpage.bmp", ScreenshotImageFormat.Bmp);
+            }
+
+        }
 }
